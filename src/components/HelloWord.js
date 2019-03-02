@@ -1,5 +1,5 @@
 import React from 'react';
-
-const HelloWorld = () => <h1>Hello World!</h1>;
+import passwordIcon from '../images/lock-solid.svg'
+const HelloWorld = () => <img src={passwordIcon} alt="Logo" />;
 
 export default HelloWorld;
